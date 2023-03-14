@@ -1,0 +1,345 @@
+/* 對所有物件的控制 */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+/* 對所有標籤的控制 */
+body {
+  background-image: url(./img/food\ blog.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+/* 所有畫面的最底層背景 */
+.out {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  opacity: 0.9;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  font-weight: bolder;
+}
+/* index內容排版 */
+.content_i {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* log_in和about內容排版 */
+.content_l {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aquamarine;
+  padding: 30px; 
+  border-radius: 20px;
+}
+/* about字型排版 */
+.intro {
+  display: flex;
+  justify-content: center;
+}
+
+/* p {
+  margin-right: 50px;
+} */
+.avatar {
+  display: flex;
+}
+.Container {
+  border: 1px solid gray;
+  width: 380px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+img {
+  width: 190px;
+  height: 200px;
+}
+
+.info {
+  display: flex;
+  margin: 30px;
+  padding-left: 10px;
+}
+.p {
+  padding-right: 100px;
+  opacity: 0.5;
+}
+h2 {
+  margin-left: 5px;
+}
+
+
+
+/* login內容設置 */
+
+*{
+  font-family:微軟正黑體;  
+}
+
+body{
+  background-color: white;
+}
+
+#username, #password, h3, #fullname, #comfirm_password,#username2, #password2{
+  width: 200px;
+  height: 20px;
+  margin: 10px;
+  color: #df5334;
+}
+
+h5{
+  margin: 20px;
+  color: #a3a2a3;
+}
+
+h5:hover{
+  color: black;
+}
+
+#container1, #container2{
+  /* margin: 50px; */
+  padding: 10px;
+  width: 230px;
+  height: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border-top: 10px solid #df5334;
+  box-shadow: 0 0px 70px rgba(0, 0, 0, 0.1);
+  
+  /*定位對齊*/
+  position:relative;   
+  margin: auto;
+  top: 100px;
+  /* text-align:center;   */
+}
+
+.system_name{
+  /*定位對齊*/
+  position:relative;   
+  margin: auto;
+  top: 100px;
+  text-align:center; 
+}
+
+.submit{
+  color: white;  
+  background: #df5334;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.submit:hover{
+  background: #db6937;
+}
+
+#container2{
+  visibility: hidden;   /*剛開始消失*/
+  height: 350px;
+}
+
+
+#copyright{
+  text-align: center;
+  color: #a3a2a3;
+  margin: -200px 0px 0px 0px;
+  font-size: 14px;
+}
+
+input{
+  padding: 5px;
+  border: none; 
+  border:solid 1px #ccc;
+  border-radius: 5px;
+}
+/* .wrap {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h2 {
+  text-align: center;
+  color: #25a6af;
+}
+
+.email,
+.password {
+  width: 500px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #333;
+}
+
+label {
+  padding-right: 10px;
+}
+
+input {
+  margin-top: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#btn {
+  text-align: center;
+}
+
+#btn input {
+  width: 45%;
+  margin: 2%;
+  margin-top: 10px;
+  border: none;
+  height: auto;
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 100px;
+}
+
+.signUp,
+.logIn {
+  cursor: pointer;
+}
+
+.signUp {
+  background-color: #06a81c;
+  color: #fff;
+}
+
+.signUp:hover {
+  background-color: #047714;
+  color: #fff;
+}
+
+.logIn {
+  background-color: #ffce49;
+  color: #816516;
+}
+
+.logIn:hover {
+  background-color: #ffc31f;
+  color: #816516;
+} */
+
+/* .true {
+    color: #06a81c;
+  }
+  
+  .false {
+    color: red;
+  } */
+
+
+
+
+/* blog內容排版 */
+.back {
+  padding-top: 50px;
+}
+
+/*carousel大小設置 */
+.suitable {
+  height: 100vh;
+}
+
+.blog_out {
+  display: flex;
+  /* padding-top: 30px; */
+}
+
+.blog_left {
+  flex-grow: 2;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px;
+  background-color: aquamarine;
+}
+
+.blog_left ul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+
+.blog_left li {
+  list-style-type: none;
+  text-align: left;
+  margin: 7px;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.blog_left ul a {
+  background-color: #06a81c;
+  padding: 5px;
+  color: aqua;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.blog_left ul a:hover {
+  background-color: #047714;
+}
+
+.blog_right {
+  flex-grow: 8;
+}
+
+.btn_a {
+  text-decoration: none;
+  color: white;
+}
+
+.comment {
+  display: flex;
+  margin-top: 40px;
+  margin-right: 40px;
+  padding: 20px;
+  background-color: #25a6af;
+  border-radius: 30px;
+}
+
+/* 跳轉標籤 */
+#breakfast {
+  padding-top: 10px;
+
+}
+
+#rice {
+  padding-top: 10px;
+}
+
+#noodles {
+  padding-top: 10px;
+}
+
+#dessert {
+  padding-top: 10px;
+}
+
+/* 內文設置 */
+.comment img {
+  width: 500px;
+}
+
+.comment p{
+  color: white;
+  text-indent: 2em;
+  word-wrap: break-word;
+}
